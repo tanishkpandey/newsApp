@@ -48,11 +48,6 @@ function genUI(allnews) {
             return; 
         }
 
-        let card = document.createElement("div");
-        card.classList.add("card-grid");
-
-        const publishedDate = new Date(news.publishedAt);
-
         main.innerHTML += `<article>
             <img src="${news.urlToImage}" alt="Sample Image">
             <div class="content">

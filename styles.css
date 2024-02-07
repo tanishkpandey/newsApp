@@ -90,3 +90,13 @@ p {
 .logo{
     width: 100px;
 }
+
+footer{
+    background-color: #0062cc;
+    color: #ffffff;
+    padding: 3rem;
+    text-align: center;
+}
+footer p{
+    color: #ffffff;
+}
